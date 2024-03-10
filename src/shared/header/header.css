@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  margin: 5px 50px;
+}
+
+.info {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h4 {
+  font-size: 23px;
+}
+
+.left-logo {
+  width: 100px;
+  height: 65px;
+  margin: 10px 20px 10px 60px;
+}
+
+.right {
+  display: flex;
+  align-items: baseline;
+  width: 380px;
+  justify-content: space-around;
+}
+
+.active {
+  border-bottom: 3px solid #f4ba01;
+  border-radius: 5px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 500;
+  color: #000;
+}
+
+.btn {
+  padding: 10px 50px;
+}
+
+.inpt {
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+  outline: none;
+  width: 15%;
+  border: 3px solid #f4ba01;
+}
+
+input::placeholder {
+  color: #000;
+}

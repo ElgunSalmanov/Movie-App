@@ -1,0 +1,19 @@
+.card {
+  margin: 10px 15px;
+  background-color: #000;
+  border: 3px solid #f4ba01;
+  border-radius: 15px;
+  padding: 5px;
+  cursor: pointer;
+  max-width: 300px;
+  color: #fff;
+  text-align: center;
+}
+
+.card-img {
+  border-radius: 8px;
+}
+
+.card-info {
+  margin-top: 15px;
+}
