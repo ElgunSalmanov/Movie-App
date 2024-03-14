@@ -29,3 +29,24 @@
   border-radius: 15px;
   padding: 5px;
 }
+
+@media (max-width: 576px) {
+  .movie_info .movie_info_products {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .movie_info .movie_info_products .info_title {
+    font-size: 18px;
+  }
+
+  .title {
+    width: 260px;
+    font-size: 17px;
+  }
+
+  .card_img {
+    width: 280px;
+    height: 400px;
+  }
+}

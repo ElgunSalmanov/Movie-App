@@ -16,3 +16,13 @@
   font-size: 40px;
   letter-spacing: 1.5px;
 }
+
+@media (max-width: 576px) {
+  .movie .movie-image {
+    width: 300px;
+    height: 200px;
+  }
+  .movie .movie-title {
+    font-size: 30px;
+  }
+}
